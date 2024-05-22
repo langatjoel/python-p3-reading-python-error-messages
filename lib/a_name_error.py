@@ -1,3 +1,9 @@
-#!/usr/bin/env python3
+def test_name_error():
+  """
+  This function defines a variable named "hello" and prints it.
+  """
+  hello = "hello_world"
+  print(hello)
 
-print(hello_world)
+# Run the test
+test_name_error()
